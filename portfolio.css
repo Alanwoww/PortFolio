@@ -1,0 +1,91 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* header 영역 container 영역 */
+
+header { width: 100%; height: 50px;  background: black; }
+
+header .container {float: left; width: 100%; height: 50px; }
+
+ header .container ul {position: fixed; display: flex; text-align: center; float: left; width: 100%; height: 50px; }
+
+header .container ul li {font-size: 40px;  font-weight: bold; margin: 0 auto;  width: 100%; height: 100px; }
+
+header .container ul li a:hover {color: #fff; text-shadow: 1px 1px 1px rgb(171, 236, 19); text-align: center; height: 100%; } 
+
+/* contentA 영역 */
+
+#contentA {font-size: 80px; font-weight: bold; float: left; width: 100%; height: 600px; color: yellow; background: url(./images/footer1_03.png);} 
+
+.box1 {text-align: center; margin-top: 70px; padding: 70px;  border: 2px solid blue; border-radius: 22px; text-shadow: 2px 2px #c3d167e7; }
+
+/* contentB 영역 */
+
+#contentB {font-size: 60px; font-weight: bold; float: left; width: 100%; height: 600px; color: yellow; background: url(./images/footer1_03.png);  }
+
+.box2 {text-align: center; padding: 30px; border: 2px solid blue; border-radius: 22px; text-align: center; color: yellow; }
+
+.box2 h1 { text-align: center; }
+
+.box2 nav {display: flex; margin-right: 25px; margin-top: 60px; float: left; width: 200px; height: 250px; border: 2px solid rgb(82, 8, 243); border-radius: 20px; background: url(./images/My.png);}
+
+.box2A {display: flex; width: 1600px; height: 400px; }
+
+.box2A h1 {float: left; width: 500px; height: 100px; }
+/* ====================================================================================================== */
+.box2B {float: left; width: 200px; height: 400px; }
+
+.box2B .bx2 {width: 400px; height: 400px; }
+
+.box2B h1 {text-align: center; width: 600px; }
+
+.box2B .bx2 li {padding: 20px; float: left; font-size: 40px; width: 560px; height: 50px;}
+/* contentC 영역 */
+
+#contentC {font-size: 30px; font-weight: bold; float: left; width: 100%; height: 600px; color: yellow; background: url(./images/footer1_03.png);}
+
+#contentC h1 {margin-left: 500px; width: 500px; font-size: 60px; color: white;}
+
+.img  {margin-top: -280px; margin-left: 100px; float: right;}
+
+#contentC .BOX1 {margin-left: 70px; display: flex; width: 1200px; height: 200px;}
+
+#contentC .BOX1 .pol { width: 1200px; height: 200px;}
+
+#contentC .BOX1 .pol li {line-height: 40px;}
+.box3 {margin-top:80px; text-shadow: 2px 2px 2px; text-align: center; padding: 20px; border: 2px solid blue; border-radius: 22px; text-align: center; color: rgb(93, 124, 226);}
+
+.box3 h1 {text-shadow: 3px 3px 3px;}
+.box3 nav {width: 100px; height: 100px;}
+
+.BOX { margin-left: -500px; margin-top: 100px; width: 500px; height: 300px;}
+
+.BOX .skill { width: 500px; height: 300px;}
+
+.BOX .skill li {}
+
+/* contentD 영역 */
+
+#contentD {font-size: 60px; font-weight: bold; float: left; width: 100%; height: 600px; color: yellow; background: url(./images/footer1_03.png);}
+
+.box4 {text-align: center; padding: 20px; border: 2px solid blue; border-radius: 22px; text-align: center; }
+
+.box4 h1 {color: white; text-shadow: 3px 3px 3px;}
+
+.box4 nav {line-height: 120px; margin-left: 50px; margin-top: 50px; float: left; width: 1600px; height: 250px;}
+
+/* contentE 영역 */
+
+#contentE {font-size: 60px; font-weight: bold; float: left; width: 100%; height: 600px; color: yellow; background: url(./images/footer1_03.png);}
+
+.box5 {text-align: center; padding: 20px; border: 2px solid blue; border-radius: 22px; text-align: center; color: yellow;}
+
+nav {text-align: center; width: 1900px; height: 500px;}
+
+nav>p {line-height: 150px; font-weight: bold; font-size: 100px; height: 500px;}
